@@ -1,0 +1,129 @@
+@media screen{
+
+
+
+.img-fluid.thumbnail{
+    border-radius: 50%;
+}
+.box-bg:hover{
+    background:DeepSkyBlue ;  
+}
+.tm-section-title.tm-section-title-box.tm-box-bg-title:hover{
+    color:white;
+    font-weight: bold;
+}
+
+.flex-item img{
+    height: 437px;
+    width: 150px;
+}
+p:not(.tm-banner-text):first-letter {
+    color:#76cdd7;
+    font-size: 30px;
+}
+section.blocks .tm-content-box p::first-letter {
+    color: black;
+}
+
+
+.tm-content-box {
+    box-shadow: 0 0 20px black;
+}
+.tm-sidebar {
+    box-shadow: 0 0 20px black;
+}
+
+section::before {
+    content: "";
+	border-top: 20px solid #00BFFF;
+	border-right: 100px solid transparent;
+}
+
+#home::before {
+    content: "";
+	border-top: 20px solid #00BFFF;
+    border-right: 100px solid transparent;
+    position: relative;
+    top: 19px;
+}
+
+div.carousel-content h2.tm-section-title {
+    color: gainsboro;
+    letter-spacing: 5px;
+}
+
+p:first-of-type{
+    font-style: italic;
+}
+
+.tm-section-description{
+text-indent: 20px;
+line-height: 30px;
+}
+
+.pad a:visited{
+    color: silver;
+}
+    
+.pad a{
+    color:black;
+}    
+.pad a:hover{
+    color:#76cdd7;
+    text-decoration-style:double;
+        
+}
+.text::after{
+    content:"New";
+    color:red;
+   vertical-align: top;
+    font-size: 10px;
+}
+
+section.blocks .box:nth-child(odd) {
+    background:#DCDCDC;
+}
+ 
+.tm-nav-item{
+    border-bottom-style:dotted;
+    color:silver;
+}
+.tm-nav-item:nth-child(4){
+border-bottom-style: none;
+}
+
+div.form-group.col-xs-12.col-sm-12.col-md-6.col-lg-6.form-group-2-col-right.mandatory-field::after {
+    content: "*";
+    color: red;
+    vertical-align: top;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn.btn-primary.submit-btn {
+    color:red;
+}
+.btn.btn-primary.submit-btn:hover{
+    background:#00BFFF;
+    color:white; 
+}
+#contact_name, #contact_subject{
+    color: red;
+}
+}
+@media print{
+    .tm-sidebar{
+        display: none;
+    }
+    .tm-main-content {
+height: 40px;
+width: 900px;
+margin: 10px;
+    }
+    .flex-2-col {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    
+}
+ 
